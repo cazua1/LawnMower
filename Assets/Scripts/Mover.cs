@@ -6,7 +6,8 @@ using PathCreation;
 public class Mover : MonoBehaviour
 {
     [SerializeField] private PathCreator _pathCreator;
-    [SerializeField] private float _maxSpeed = 5f;    
+    [SerializeField] private float _maxSpeed = 5f;
+    [SerializeField] private ParticleSystem _grassParticle;
 
     private readonly float _minSpeed = 0f;    
     private bool _canMove;
@@ -27,6 +28,14 @@ public class Mover : MonoBehaviour
 
         else
             ChangeSpeedValue(_minSpeed);        
+    }
+
+    private void FixedUpdate()
+    {
+        if (_currentSpeed > 0)
+        {
+            _grassParticle.Play();
+        }
     }
 
     public void Stop()
@@ -52,11 +61,11 @@ public class Mover : MonoBehaviour
 
     private IEnumerator ChangeSpeed(float targetSpeed)
     {
-        float changeStep = 0.069f;
+        float changeStep = 5f;
 
         while(_currentSpeed != targetSpeed)
         {
-            _currentSpeed = Mathf.MoveTowards(_currentSpeed, targetSpeed, changeStep);
+            _currentSpeed = Mathf.MoveTowards(_currentSpeed, targetSpeed, changeStep * Time.deltaTime);
             yield return null;
         }
     }
