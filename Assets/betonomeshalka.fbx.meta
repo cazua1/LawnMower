@@ -9,6 +9,46 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Body_Main
     second: {fileID: 2100000, guid: 5d0b8f0310795d4459659ca466c079e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_Side
+    second: {fileID: 2100000, guid: 1b0d6a4172a679442ac915640f614d12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dvizhok
+    second: {fileID: 2100000, guid: 264d3e079bd645f40982e576a1134163, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ruchka_bot
+    second: {fileID: 2100000, guid: 338576d2e88c54e4787a7b42e9ef9d24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shtuka
+    second: {fileID: 2100000, guid: a9719c5e4ca53ad42951ebca5dce6cf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wheel_Inner
+    second: {fileID: 2100000, guid: eb1b1b957a42ed94eba4076dadb44239, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wheel_outter
+    second: {fileID: 2100000, guid: b1d0c0a2d333f86409000c4069e1afeb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kovzhush
+    second: {fileID: 2100000, guid: 3a7c51136d32d8c43a1dc4c64f6ae361, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ruchka_top
+    second: {fileID: 2100000, guid: 15f7f69d6b61bf343bf4f62620ef7b64, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

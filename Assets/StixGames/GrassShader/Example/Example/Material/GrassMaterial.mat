@@ -10,7 +10,8 @@ Material:
   m_Name: GrassMaterial
   m_Shader: {fileID: 4800000, guid: 1902925be899f6c4794040c4a1c39b50, type: 3}
   m_ShaderKeywords: GRASS_CALC_GLOBAL_WIND GRASS_HEIGHT_SMOOTHING GRASS_IGNORE_GI_SPECULAR
-    GRASS_RANDOM_DIR GRASS_UNLIT_LIGHTING GRASS_WIDTH_SMOOTHING SIMPLE_GRASS
+    GRASS_SURFACE_NORMAL_LIGHTING GRASS_UNLIT_LIGHTING GRASS_WIDTH_SMOOTHING SIMPLE_GRASS
+    VERTEX_DENSITY
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -62,7 +63,7 @@ Material:
     - _AtlasOffset02: 0.01
     - _AtlasOffset03: 0.01
     - _BurnCutoff: 0.05
-    - _CullMode: 2
+    - _CullMode: 0
     - _DensityFalloffPower: 0.804
     - _DensityFalloffScale: 0.296
     - _DensityFalloffStart: 20
@@ -71,7 +72,7 @@ Material:
     - _GrassFadeEnd: 100
     - _GrassFadeStart: 50
     - _LODEnd: 102.7
-    - _LODMax: 6
+    - _LODMax: 2
     - _LODStart: 20.94
     - _MaxHeight00: 0.71
     - _MaxHeight01: 1.5
@@ -108,21 +109,21 @@ Material:
     - _Weight01: 2
     - _Weight02: 2
     - _Weight03: 2
-    - _Width00: 0.03
+    - _Width00: 0.069
     - _Width01: 0.1
     - _Width02: 0.1
     - _Width03: 0.1
     - _WindRotation: 0
     m_Colors:
     - _BurnColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color00: {r: 0.6245661, g: 0.666, b: 0.497502, a: 1}
+    - _Color00: {r: 0.68235296, g: 0.9647059, b: 0.32941177, a: 1}
     - _Color01: {r: 0.5, g: 0.7, b: 0.3, a: 1}
     - _Color02: {r: 0.5, g: 0.7, b: 0.3, a: 1}
     - _Color03: {r: 0.5, g: 0.7, b: 0.3, a: 1}
     - _DensityValues: {r: 1, g: 1, b: 1, a: 1}
     - _GrassBottomColor: {r: 1, g: 1, b: 1, a: 1}
     - _GrassFloorColor: {r: 0.23584908, g: 0.16657095, b: 0.083437175, a: 1}
-    - _SecColor00: {r: 0.34199515, g: 0.409, b: 0.152148, a: 1}
+    - _SecColor00: {r: 0.44313726, g: 0.6313726, b: 0.23529412, a: 1}
     - _SecColor01: {r: 0.2, g: 0.5, b: 0.15, a: 1}
     - _SecColor02: {r: 0.2, g: 0.5, b: 0.15, a: 1}
     - _SecColor03: {r: 0.2, g: 0.5, b: 0.15, a: 1}
@@ -130,5 +131,5 @@ Material:
     - _SpecColor01: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _SpecColor02: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _SpecColor03: {r: 0.2, g: 0.2, b: 0.2, a: 1}
-    - _WindParams: {r: 0.3, g: 1.2, b: 0.15, a: 1.3}
+    - _WindParams: {r: 0.2, g: 0.7, b: 0.05, a: 1.3}
   m_BuildTextureStacks: []
