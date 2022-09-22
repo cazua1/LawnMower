@@ -7,7 +7,7 @@ public class Mover : MonoBehaviour
 {
     [SerializeField] private PathCreator _pathCreator;
     [SerializeField] private float _maxSpeed = 5f;
-    [SerializeField] private ParticleSystem _grassParticle;
+    [SerializeField] private ParticleSystem _piecesOfGrassParticle;
 
     private readonly float _minSpeed = 0f;    
     private bool _canMove;
@@ -34,13 +34,14 @@ public class Mover : MonoBehaviour
     {
         if (_currentSpeed > 0)
         {
-            _grassParticle.Play();
+            _piecesOfGrassParticle.Play();
         }
     }
 
     public void Stop()
     {        
         _canMove = false;
+        _currentSpeed = 0;
     }
 
     public void ResetPosition()
