@@ -1,0 +1,6 @@
+[22/Sep/2022:20:05:26 +0400] Failed to bind the socket, port #80, address=0.0.0.0, error #50.
+
+Probable reason is that another daemon is already running on the same port (80).
+[22/Sep/2022:20:06:01 +0400] Failed to bind the socket, port #80, address=0.0.0.0, error #50.
+
+Probable reason is that another daemon is already running on the same port (80).

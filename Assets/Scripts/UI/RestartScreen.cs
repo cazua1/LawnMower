@@ -2,15 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using StixGames.GrassShader;
 
 public class RestartScreen : MonoBehaviour
 {
-    [SerializeField] private Player _player;
+    [SerializeField] private Player1 _player;
     [SerializeField] private Mover _mover;
     [SerializeField] private Image _restartScreen;
-    [SerializeField] private Button _restartButton;
-    [SerializeField] private InteractionTrailRenderer _renderer;
+    [SerializeField] private Button _restartButton;    
     
     private void OnEnable()
     {
@@ -32,8 +30,7 @@ public class RestartScreen : MonoBehaviour
     private void OnRestartButtonClick()
     {
         DisableRestartScreen();
-        _mover.ResetPosition();
-        _renderer.ClearPath();
+        _mover.ResetPosition();        
     }
 
     private void EnableRestartScreen()

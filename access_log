@@ -1,0 +1,78 @@
+192.168.1.45 - - [22/Sep/2022:13:38:40 +0400] "GET / HTTP/1.1" 200 4983
+192.168.1.45 - - [22/Sep/2022:13:38:40 +0400] "GET /TemplateData/style.css HTTP/1.1" 200 1395
+192.168.1.45 - - [22/Sep/2022:13:38:40 +0400] "GET /TemplateData/fullscreen-button.png HTTP/1.1" 200 175
+192.168.1.45 - - [22/Sep/2022:13:38:40 +0400] "GET /TemplateData/webgl-logo.png HTTP/1.1" 200 2947
+192.168.1.45 - - [22/Sep/2022:13:38:40 +0400] "GET /TemplateData/unity-logo-dark.png HTTP/1.1" 200 3042
+192.168.1.45 - - [22/Sep/2022:13:38:40 +0400] "GET /TemplateData/progress-bar-empty-dark.png HTTP/1.1" 200 96
+192.168.1.45 - - [22/Sep/2022:13:38:40 +0400] "GET /TemplateData/progress-bar-full-dark.png HTTP/1.1" 200 74
+192.168.1.45 - - [22/Sep/2022:13:38:40 +0400] "GET /Build/Builds.loader.js HTTP/1.1" 200 106332
+192.168.1.45 - - [22/Sep/2022:13:38:40 +0400] "GET /TemplateData/favicon.ico HTTP/1.1" 200 2305
+192.168.1.45 - - [22/Sep/2022:13:38:40 +0400] "GET /Build/5645e2456272f57ad299685d686e64ab.data.unityweb HTTP/1.1" 200 2301367
+192.168.1.45 - - [22/Sep/2022:13:38:40 +0400] "GET /Build/05173b4fd75adc5ff6094f8303bb911e.js.unityweb HTTP/1.1" 200 66512
+192.168.1.45 - - [22/Sep/2022:13:38:40 +0400] "GET /Build/e2a866de66261dc5dd2f93ca278c66f0.wasm.unityweb HTTP/1.1" 200 4703623
+192.168.1.45 - - [22/Sep/2022:13:40:35 +0400] " " 400 -
+192.168.1.45 - - [22/Sep/2022:13:40:36 +0400] " " 400 -
+192.168.1.45 - - [22/Sep/2022:13:40:36 +0400] " " 400 -
+192.168.1.45 - - [22/Sep/2022:13:40:36 +0400] " " 400 -
+192.168.1.45 - - [22/Sep/2022:13:45:29 +0400] "GET / HTTP/1.1" 200 4983
+192.168.1.45 - - [22/Sep/2022:13:45:29 +0400] "GET /TemplateData/style.css HTTP/1.1" 200 1395
+192.168.1.45 - - [22/Sep/2022:13:45:29 +0400] "GET /Build/Builds.loader.js HTTP/1.1" 200 106332
+192.168.1.45 - - [22/Sep/2022:13:45:29 +0400] "GET /TemplateData/webgl-logo.png HTTP/1.1" 200 2947
+192.168.1.45 - - [22/Sep/2022:13:45:29 +0400] "GET /TemplateData/fullscreen-button.png HTTP/1.1" 200 175
+192.168.1.45 - - [22/Sep/2022:13:45:29 +0400] "GET /TemplateData/unity-logo-dark.png HTTP/1.1" 200 3042
+192.168.1.45 - - [22/Sep/2022:13:45:29 +0400] "GET /TemplateData/progress-bar-full-dark.png HTTP/1.1" 200 74
+192.168.1.45 - - [22/Sep/2022:13:45:29 +0400] "GET /TemplateData/progress-bar-empty-dark.png HTTP/1.1" 200 96
+192.168.1.45 - - [22/Sep/2022:13:45:29 +0400] "GET /TemplateData/favicon.ico HTTP/1.1" 200 2305
+192.168.1.45 - - [22/Sep/2022:13:45:29 +0400] "GET /Build/05173b4fd75adc5ff6094f8303bb911e.js.unityweb HTTP/1.1" 200 66512
+192.168.1.45 - - [22/Sep/2022:13:45:29 +0400] "GET /Build/e2a866de66261dc5dd2f93ca278c66f0.wasm.unityweb HTTP/1.1" 200 4703623
+192.168.1.45 - - [22/Sep/2022:13:45:29 +0400] "GET /Build/2154af701c922a9c7df4114322ec6f99.data.unityweb HTTP/1.1" 200 2609445
+192.168.1.45 - - [22/Sep/2022:13:47:25 +0400] " " 400 -
+192.168.1.45 - - [22/Sep/2022:13:47:25 +0400] " " 400 -
+192.168.1.45 - - [22/Sep/2022:13:47:25 +0400] " " 400 -
+192.168.1.45 - - [22/Sep/2022:14:29:52 +0400] "GET / HTTP/1.1" 200 4983
+192.168.1.45 - - [22/Sep/2022:14:29:52 +0400] "GET /TemplateData/style.css HTTP/1.1" 200 1395
+192.168.1.45 - - [22/Sep/2022:14:29:52 +0400] "GET /TemplateData/webgl-logo.png HTTP/1.1" 200 2947
+192.168.1.45 - - [22/Sep/2022:14:29:52 +0400] "GET /Build/Builds.loader.js HTTP/1.1" 200 106332
+192.168.1.45 - - [22/Sep/2022:14:29:52 +0400] "GET /TemplateData/fullscreen-button.png HTTP/1.1" 200 175
+192.168.1.45 - - [22/Sep/2022:14:29:52 +0400] "GET /TemplateData/unity-logo-dark.png HTTP/1.1" 200 3042
+192.168.1.45 - - [22/Sep/2022:14:29:52 +0400] "GET /TemplateData/progress-bar-empty-dark.png HTTP/1.1" 200 96
+192.168.1.45 - - [22/Sep/2022:14:29:52 +0400] "GET /TemplateData/progress-bar-full-dark.png HTTP/1.1" 200 74
+192.168.1.45 - - [22/Sep/2022:14:29:52 +0400] "GET /TemplateData/favicon.ico HTTP/1.1" 200 2305
+192.168.1.45 - - [22/Sep/2022:14:29:52 +0400] " " 400 -
+192.168.1.45 - - [22/Sep/2022:14:29:52 +0400] "GET /Build/c15f993ef9d99e8502784d1c8674dccd.data.unityweb HTTP/1.1" 200 2322064
+192.168.1.45 - - [22/Sep/2022:14:29:52 +0400] "GET /Build/05173b4fd75adc5ff6094f8303bb911e.js.unityweb HTTP/1.1" 200 66512
+192.168.1.45 - - [22/Sep/2022:14:29:52 +0400] "GET /Build/e2a866de66261dc5dd2f93ca278c66f0.wasm.unityweb HTTP/1.1" 200 4703623
+192.168.1.45 - - [22/Sep/2022:14:29:58 +0400] " " 400 -
+192.168.1.45 - - [22/Sep/2022:20:06:45 +0400] "GET /Build/gg.data.br HTTP/1.1" 403 -
+192.168.1.45 - - [22/Sep/2022:20:12:01 +0400] "GET / HTTP/1.1" 200 4983
+192.168.1.45 - - [22/Sep/2022:20:12:01 +0400] "GET /Build/Builds.loader.js HTTP/1.1" 200 106332
+192.168.1.45 - - [22/Sep/2022:20:12:01 +0400] "GET /Build/2392dfe1611201a864756558a4be9612.wasm.unityweb HTTP/1.1" 200 4673138
+192.168.1.45 - - [22/Sep/2022:20:12:01 +0400] "GET /Build/53c527bfa164db1a0ff13c25fba5272c.js.unityweb HTTP/1.1" 200 66483
+192.168.1.45 - - [22/Sep/2022:20:12:01 +0400] "GET /Build/340cb51037086c483c91f58c6f7f67fe.data.unityweb HTTP/1.1" 200 2322732
+192.168.1.45 - - [22/Sep/2022:20:12:20 +0400] " " 400 -
+192.168.1.45 - - [22/Sep/2022:20:12:20 +0400] " " 400 -
+192.168.1.45 - - [22/Sep/2022:20:12:20 +0400] " " 400 -
+192.168.1.45 - - [22/Sep/2022:20:20:04 +0400] "GET / HTTP/1.1" 200 4983
+192.168.1.45 - - [22/Sep/2022:20:20:04 +0400] "GET /Build/Builds.loader.js HTTP/1.1" 200 106332
+192.168.1.45 - - [22/Sep/2022:20:20:04 +0400] "GET /TemplateData/favicon.ico HTTP/1.1" 200 2305
+192.168.1.45 - - [22/Sep/2022:20:20:04 +0400] " " 400 -
+192.168.1.45 - - [22/Sep/2022:20:20:04 +0400] "GET /Build/b513185d5620c4ac9ea102a62bc8e400.js.unityweb HTTP/1.1" 200 66505
+192.168.1.45 - - [22/Sep/2022:20:20:04 +0400] "GET /Build/db6fc889d985c90f7b3b58f5c9e8a858.wasm.unityweb HTTP/1.1" 200 4689373
+192.168.1.45 - - [22/Sep/2022:20:20:04 +0400] "GET /Build/01df627ea896a6b998aa99c8cb37a55d.data.unityweb HTTP/1.1" 200 2348954
+192.168.1.45 - - [22/Sep/2022:20:21:59 +0400] " " 400 -
+192.168.1.45 - - [22/Sep/2022:20:21:59 +0400] " " 400 -
+192.168.1.45 - - [22/Sep/2022:20:21:59 +0400] " " 400 -
+192.168.1.45 - - [23/Sep/2022:13:23:42 +0400] "GET / HTTP/1.1" 200 4983
+192.168.1.45 - - [23/Sep/2022:13:23:42 +0400] "GET /TemplateData/style.css HTTP/1.1" 200 1395
+192.168.1.45 - - [23/Sep/2022:13:23:42 +0400] "GET /Build/Builds.loader.js HTTP/1.1" 200 106332
+192.168.1.45 - - [23/Sep/2022:13:23:42 +0400] "GET /TemplateData/webgl-logo.png HTTP/1.1" 200 2947
+192.168.1.45 - - [23/Sep/2022:13:23:42 +0400] "GET /TemplateData/fullscreen-button.png HTTP/1.1" 200 175
+192.168.1.45 - - [23/Sep/2022:13:23:42 +0400] "GET /TemplateData/progress-bar-empty-dark.png HTTP/1.1" 200 96
+192.168.1.45 - - [23/Sep/2022:13:23:42 +0400] "GET /TemplateData/progress-bar-full-dark.png HTTP/1.1" 200 74
+192.168.1.45 - - [23/Sep/2022:13:23:42 +0400] "GET /TemplateData/unity-logo-dark.png HTTP/1.1" 200 3042
+192.168.1.45 - - [23/Sep/2022:13:23:42 +0400] "GET /Build/b513185d5620c4ac9ea102a62bc8e400.js.unityweb HTTP/1.1" 200 66505
+192.168.1.45 - - [23/Sep/2022:13:23:42 +0400] "GET /Build/db6fc889d985c90f7b3b58f5c9e8a858.wasm.unityweb HTTP/1.1" 200 4689373
+192.168.1.45 - - [23/Sep/2022:13:23:42 +0400] "GET /Build/2a33b358bd0fb7280e7db8bb19817ffd.data.unityweb HTTP/1.1" 200 2348963
+192.168.1.45 - - [23/Sep/2022:13:25:37 +0400] " " 400 -
+192.168.1.45 - - [23/Sep/2022:13:25:37 +0400] " " 400 -
+192.168.1.45 - - [23/Sep/2022:13:25:37 +0400] " " 400 -
