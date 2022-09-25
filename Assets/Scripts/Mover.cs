@@ -7,14 +7,14 @@ public class Mover : MonoBehaviour
 {
     [SerializeField] private PathCreator _pathCreator;
     [SerializeField] private float _maxSpeed = 5f;
-    [SerializeField] private ParticleSystem _piecesOfGrassParticle;
+    [SerializeField] private ParticleSystem _piecesOfGrassParticle;    
 
     private readonly float _minSpeed = 0f;    
     private bool _canMove;
     private float _currentSpeed;
     private float _distanceTravelled;
     private Coroutine _changeSpeedCoroutine;
-
+       
     private void Start()
     {
         ResetPosition();
@@ -36,7 +36,7 @@ public class Mover : MonoBehaviour
         {
             _piecesOfGrassParticle.Play();
         }
-    }
+    }    
 
     public void Stop()
     {        

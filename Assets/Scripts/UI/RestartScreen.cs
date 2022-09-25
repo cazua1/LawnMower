@@ -7,6 +7,7 @@ public class RestartScreen : MonoBehaviour
 {
     [SerializeField] private Player1 _player;
     [SerializeField] private Mover _mover;
+    [SerializeField] private GrassClipper _grassClipper;
     [SerializeField] private Image _restartScreen;
     [SerializeField] private Button _restartButton;    
     
@@ -30,7 +31,8 @@ public class RestartScreen : MonoBehaviour
     private void OnRestartButtonClick()
     {
         DisableRestartScreen();
-        _mover.ResetPosition();        
+        _mover.ResetPosition();
+        _grassClipper.ReserGrassHeight();
     }
 
     private void EnableRestartScreen()
