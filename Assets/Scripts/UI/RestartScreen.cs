@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class RestartScreen : MonoBehaviour
 {
-    [SerializeField] private Player1 _player;
+    [SerializeField] private Player _player;
     [SerializeField] private Mover _mover;
     [SerializeField] private GrassClipper _grassClipper;
     [SerializeField] private Image _restartScreen;
