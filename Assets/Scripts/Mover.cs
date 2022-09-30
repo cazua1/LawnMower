@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using PathCreation;
+using Cinemachine;
 
 public class Mover : MonoBehaviour
 {
@@ -28,7 +29,7 @@ public class Mover : MonoBehaviour
 
         else
             ChangeSpeedValue(_minSpeed);        
-    }
+    }    
 
     private void FixedUpdate()
     {
