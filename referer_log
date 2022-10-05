@@ -83,3 +83,14 @@ http://192.168.1.45/ -> /TemplateData/favicon.ico
 http://192.168.1.45/ -> /Build/2bd17cdf521374cdcd55c8bab69ab5a9.js.unityweb
 http://192.168.1.45/ -> /Build/84ba9baefe9ca00da432ff60850379a2.wasm.unityweb
 http://192.168.1.45/ -> /Build/22d19e03ddd980fc4199d75647b131b6.data.unityweb
+http://192.168.1.45/ -> /TemplateData/style.css
+http://192.168.1.45/TemplateData/style.css -> /TemplateData/webgl-logo.png
+http://192.168.1.45/TemplateData/style.css -> /TemplateData/fullscreen-button.png
+http://192.168.1.45/ -> /Build/Builds.loader.js
+http://192.168.1.45/TemplateData/style.css -> /TemplateData/unity-logo-dark.png
+http://192.168.1.45/TemplateData/style.css -> /TemplateData/progress-bar-empty-dark.png
+http://192.168.1.45/TemplateData/style.css -> /TemplateData/progress-bar-full-dark.png
+http://192.168.1.45/ -> /TemplateData/favicon.ico
+http://192.168.1.45/ -> /Build/6cd31c248f1357ffe4e8fc0da088ac13.js.unityweb
+http://192.168.1.45/ -> /Build/d17dfc556801d33b1ed8db4213baa1c7.wasm.unityweb
+http://192.168.1.45/ -> /Build/b805d840cf01eb3c6da1eaa76a7d10ec.data.unityweb
