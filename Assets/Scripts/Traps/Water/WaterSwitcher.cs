@@ -8,11 +8,15 @@ public class WaterSwitcher : MonoBehaviour
     [SerializeField] private float _activationDelay;
     [SerializeField] private float _deactivationDelay;
 
-    private bool _isGameRunning = true;
+    private readonly bool _isGameRunning = true;
+    private Coroutine _coroutine;
 
     private void Start()
     {
-        StartCoroutine(SwitchState(_activationDelay, _deactivationDelay));
+        if (_coroutine != null)
+            StopCoroutine(_coroutine);
+
+        _coroutine = StartCoroutine(SwitchState(_activationDelay, _deactivationDelay));
     }
 
     private IEnumerator SwitchState(float activationDelay, float deactivationDelay)

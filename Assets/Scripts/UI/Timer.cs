@@ -14,9 +14,9 @@ public class Timer : MonoBehaviour
     [SerializeField] private int _secondsForTwoStars;
     
     private readonly Stopwatch _stopWatch = new();
+    private string _recordTimeString;
     private TextMeshProUGUI _value;
     private TimeSpan _recordTime;
-    private string _recordTimeString;
     private TimeSpan _timeForThreeStars;
     private TimeSpan _timeForTwoStars;
         
@@ -39,7 +39,7 @@ public class Timer : MonoBehaviour
        // PlayerPrefs.DeleteAll();
         _value = GetComponent<TextMeshProUGUI>();
         _recordTimeString = PlayerPrefs.GetString(_statistics.GetCurrentLevelRecordTime());
-        TimeSpan.TryParseExact(_recordTimeString, @"mm\:ss\:ff", System.Globalization.CultureInfo.InvariantCulture, out _recordTime);
+        TimeSpan.TryParseExact(_recordTimeString, @"mm\:ss\:fff", System.Globalization.CultureInfo.InvariantCulture, out _recordTime);
         ShowBestTime(_recordTime);
         _timeForThreeStars = TimeSpan.FromSeconds(_secondsForThreeStars);
         _timeForTwoStars = TimeSpan.FromSeconds(_secondsForTwoStars);              
@@ -50,10 +50,16 @@ public class Timer : MonoBehaviour
         ShowStopWatch();                
     }
 
+    public int GetRecordTime()
+    {
+        int recordTime = Convert.ToInt32(_recordTime.TotalMilliseconds);        
+        return recordTime;        
+    }
+
     private void ShowStopWatch()
     {
         TimeSpan timeSpan = _stopWatch.Elapsed;
-        string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}", timeSpan.Minutes, timeSpan.Seconds, timeSpan.Milliseconds / 10);
+        string elapsedTime = String.Format("{0:00}:{1:00}.{2:00}", timeSpan.Minutes, timeSpan.Seconds, timeSpan.Milliseconds / 10);
         _value.text = elapsedTime;
     }
 
@@ -65,12 +71,12 @@ public class Timer : MonoBehaviour
         if (_recordTime > currentTime)        
             _recordTime = currentTime;            
                
-        PlayerPrefs.SetString(_statistics.GetCurrentLevelRecordTime(), _recordTime.ToString(@"mm\:ss\:ff"));        
+        PlayerPrefs.SetString(_statistics.GetCurrentLevelRecordTime(), _recordTime.ToString(@"mm\:ss\:fff"));        
     }
 
     private void ShowBestTime(TimeSpan time)
     {
-        _recordTimeValue.text = time.ToString(@"mm\:ss\:ff");        
+        _recordTimeValue.text = time.ToString(@"mm\:ss\.ff");        
     }
 
     private void OnLevelStarted()

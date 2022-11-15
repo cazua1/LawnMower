@@ -68,7 +68,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 00:00:00
+  m_text: 00:00.00
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cd2817702d4ebc14390031ef97691055, type: 2}
   m_sharedMaterial: {fileID: 4350248944547518628, guid: cd2817702d4ebc14390031ef97691055, type: 2}
@@ -151,6 +151,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _player: {fileID: 0}
   _recordTimeValue: {fileID: 3885096060604634449}
+  _statistics: {fileID: 0}
+  _secondsForThreeStars: 0
+  _secondsForTwoStars: 0
 --- !u!1 &3885096060604634451
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,7 +220,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 00:00:00
+  m_text: 00:00.00
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cd2817702d4ebc14390031ef97691055, type: 2}
   m_sharedMaterial: {fileID: 4350248944547518628, guid: cd2817702d4ebc14390031ef97691055, type: 2}

@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuScreenDisplay : MonoBehaviour
 {
+    [SerializeField] private Timer _timer;
     [SerializeField] private PlayerStatistics _statistics;
     [SerializeField] private Player _player;
     [SerializeField] private PlayerMover _mover;
@@ -15,8 +16,8 @@ public class MenuScreenDisplay : MonoBehaviour
     [SerializeField] private Button _restartButton;
     [SerializeField] private Button _reloadButton;
     [SerializeField] private Button[] _mainMenuButtons;
-    [SerializeField] private Image _secondStar;
-    [SerializeField] private Image _thirdStar;
+    [SerializeField] private GameObject _secondStar;
+    [SerializeField] private GameObject _thirdStar;
 
     private readonly float _delay = 2f;
     private readonly int _menuSceneIndex = 0;
@@ -61,7 +62,7 @@ public class MenuScreenDisplay : MonoBehaviour
     private void OnLevelCompleted()
     {
         StartCoroutine(EnableWithDelay(_delay));
-        ShowReward();
+        _timer.GetRecordTime();
     }
 
     private void OnReloadButtonClick()
@@ -70,7 +71,7 @@ public class MenuScreenDisplay : MonoBehaviour
     }
 
     private void OnRestartButtonClick()
-    {
+    {        
         DisableScreen(_restartScreen);
         EnableScreen(_startGameScreen);
         _mover.ResetPosition();
@@ -97,17 +98,22 @@ public class MenuScreenDisplay : MonoBehaviour
         var delay = new WaitForSeconds(activationDelay);
 
         yield return delay;
-        EnableScreen(_levelComplitedScreen);        
+        EnableScreen(_levelComplitedScreen);
+        ShowReward();
     }
 
     private void ShowReward()
     {
         int numberOfStars = PlayerPrefs.GetInt(_statistics.GetCurrentLevelReward());
 
-        if (numberOfStars == 1)        
-            _secondStar.enabled = false;
-        
-        if (numberOfStars <= 2)        
-            _thirdStar.enabled = false;        
-    }
+        if (numberOfStars <= 2)
+        {
+            _thirdStar.SetActive(false);
+
+            if (numberOfStars == 1)
+            {
+                _secondStar.SetActive(false);
+            }            
+        }             
+    }    
 }

@@ -30,15 +30,13 @@ public class PlayerMover : MonoBehaviour, IMovable
 
     private void FixedUpdate()
     {
-        if (_currentSpeed > 0)
-        {
-            _piecesOfGrassParticle.Play();
-        }
+        if (_currentSpeed > 0)        
+            _piecesOfGrassParticle.Play();        
     }
 
     public void Move()
     {
-        if (Input.GetMouseButton(0) && _canMove == true)
+        if ((Input.GetMouseButton(0) || Input.GetKey(KeyCode.Space)) && _canMove == true)
         {
             MovingStarted?.Invoke();
             ChangeSpeedValue(_maxSpeed);
@@ -73,7 +71,7 @@ public class PlayerMover : MonoBehaviour, IMovable
 
     private IEnumerator ChangeSpeed(float targetSpeed)
     {
-        float changeStep = 5f;
+        float changeStep = 10f;
 
         while(_currentSpeed != targetSpeed)
         {
